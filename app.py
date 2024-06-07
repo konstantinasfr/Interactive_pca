@@ -6,9 +6,9 @@ df_shap_pca = pd.read_csv('./docs/sfm_res.csv')
 
 # Create Dash app
 app = Dash(__name__)
-app.config.update({
-    'requests_pathname_prefix': '/Interactive_pca/'
-})
+#app.config.update({
+#    'requests_pathname_prefix': '/Interactive_pca/'
+#})
 # Define colors for each class
 colors = {'Antagonist': 'blue', 'Agonist': 'red'}
 
@@ -74,5 +74,5 @@ def display_image(clickData):
     return clicked_data
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8051)
-
+    # app.run_server(debug=True, port=8051)
+    app.run_server(debug=True, host='0.0.0.0', port=8050)
