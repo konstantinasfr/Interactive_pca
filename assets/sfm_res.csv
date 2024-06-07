@@ -1,0 +1,102 @@
+PC1,PC2,y_true,y_pred,lig_name,classification,ligand type
+-1.0333741984513833,0.15232609228875446,1.0,1,25-CN-NBOH,correctly classified,Agonist
+-0.7639104585011404,0.15326161999824908,1.0,0,25B-NBOMe,missclassified,Agonist
+-0.38155136219422103,0.6608871638637013,1.0,1,25C-NBOMe,correctly classified,Agonist
+0.6083282611815028,1.3365565022348749,1.0,0,2C-B,missclassified,Agonist
+-0.6556958340451181,-0.1644563034426943,1.0,1,4C-B,correctly classified,Agonist
+0.15575504370794488,-0.9203582331060264,1.0,0,5-MeOT_dk13,missclassified,Agonist
+-0.7649775428035072,0.09632162922619711,1.0,1,5CT_dk74_FP,correctly classified,Agonist
+-0.8047062315785989,0.18349022470883286,1.0,1,5HT_dk18_FP,correctly classified,Agonist
+-0.7814813716767874,-0.13046649124296603,1.0,1,8-OH-DPAT_Disu,correctly classified,Agonist
+0.3326958998569007,-0.9074914262078917,1.0,1,AL-34662,correctly classified,Agonist
+0.6969310707948244,-0.2912106917329799,1.0,0,Aripiprazole_Disu,missclassified,Agonist
+1.5865133452479219,0.5007568769280607,1.0,0,BRL-15572_Disu,missclassified,Agonist
+-0.8671663179943798,0.24596891637124124,1.0,1,Brolamfetamine_dk38_FP,correctly classified,Agonist
+-0.7693510863551335,-0.263287183627688,1.0,1,Bromo-DragonFLY,correctly classified,Agonist
+-0.7891264210050116,-0.054663263414813874,1.0,1,CGS-12066_Disu,correctly classified,Agonist
+0.4985275491319991,1.52061505669665,1.0,0,DMBMPP_SS,missclassified,Agonist
+-0.6489646038524622,0.001166367194621401,1.0,1,DOI_dock76_FP_Disu,correctly classified,Agonist
+-0.8272498320342472,0.27444258552709266,1.0,1,Dimethoxy-4-ethoxyamphetamine,correctly classified,Agonist
+-0.7658161851702766,0.3694413355498803,1.0,1,Dimethoxy-4-methylamphetamine,correctly classified,Agonist
+0.4133706786569092,-0.7189155151578027,1.0,1,Donitriptan_Disu,correctly classified,Agonist
+-1.0995847286140572,-0.04677454884067687,1.0,1,LP-44_dk63_FP,correctly classified,Agonist
+-0.8861117389348907,0.1342332962311436,1.0,1,LSD_Disu,correctly classified,Agonist
+-0.6016187809394506,-0.13809918944176525,1.0,1,Lisuride_Disu,correctly classified,Agonist
+0.38064934655049426,-0.8943733607348169,1.0,1,Lorcaserin_Disu,correctly classified,Agonist
+-0.49977107821308203,-0.07534417763755533,1.0,1,Lysergide_Disu,correctly classified,Agonist
+-0.8467831706130202,0.18579130972646574,1.0,1,MK-212_FP,correctly classified,Agonist
+-1.04391220474544,-0.043477564148286484,1.0,1,Mefloquine,correctly classified,Agonist
+-0.8370732839355184,0.3321131269388918,1.0,1,Methylergonovine_dk41,correctly classified,Agonist
+-0.6599991198832517,-0.10894213079132099,1.0,1,N-1-isopropyl-5-MeOT,correctly classified,Agonist
+-0.7451725220026059,0.35277244991939943,1.0,1,N-1-isopropyltryptamine_Disu,correctly classified,Agonist
+-0.8524567094444491,0.35252802709850023,1.0,1,ORG-37684_Disu,correctly classified,Agonist
+0.43271479128654056,-0.7723235602343794,1.0,1,OSU-6162,correctly classified,Agonist
+-1.0014098808721597,0.09370014451693498,1.0,1,Pergolide_Disu,correctly classified,Agonist
+0.17665413919662604,-1.0729750676307073,1.0,1,Psilocybin,correctly classified,Agonist
+-0.260347978002904,0.051112309314922444,1.0,0,Quinpirole_Disu,missclassified,Agonist
+-0.9490600883577277,0.10367801283249763,1.0,1,RU_24969,correctly classified,Agonist
+0.3526410920719361,-0.7785368529094804,1.0,0,SN-22,missclassified,Agonist
+-0.9087145587353184,-0.024114170970691323,1.0,1,TFMPP_Disu,correctly classified,Agonist
+0.30547849532144866,-0.9339187780113247,1.0,0,YM-348,missclassified,Agonist
+-0.7466439911844717,0.2669458828335116,1.0,1,alpha-methyl-5-ht_dk23,correctly classified,Agonist
+0.14229306751437892,-0.939126600243679,1.0,1,bromocriptine_Disu,correctly classified,Agonist
+-0.7404890707735715,0.020950382616319495,1.0,1,capeserod_FP,correctly classified,Agonist
+-0.9421298981165729,0.2961497988576978,1.0,1,m-chlorophenylpiperazine_FP,correctly classified,Agonist
+-0.7816026724888377,-0.04745924589506552,1.0,1,mescaline,correctly classified,Agonist
+-0.9233983007341766,0.009797197177314466,1.0,1,quipazine_Disu,correctly classified,Agonist
+0.4818205394841962,-0.7656374224609656,1.0,0,relenopride_dk47,missclassified,Agonist
+-0.8022530357566318,0.32374094954877614,1.0,1,trifluoromethylamphetamine,correctly classified,Agonist
+0.0197579267398239,1.1552481588418695,0.0,0,2k-2S-4R_Disu,correctly classified,Antagonist
+1.2240484392066036,0.4333838139547481,0.0,0,3a-2S-4S_Disu,correctly classified,Antagonist
+0.15346276998858774,-0.8905952075995576,0.0,0,3f-2S-4S_Disu,correctly classified,Antagonist
+0.23644170253121663,1.271126178902969,0.0,0,3h-2R-4R_disu,correctly classified,Antagonist
+0.30177323092452885,-0.6316860540984167,0.0,0,3h-2S-4S_Disu,correctly classified,Antagonist
+1.347874014649941,0.2369098684817004,0.0,0,9-OH-risperidone_Disu,correctly classified,Antagonist
+-0.8937736122573443,0.052297861130720553,0.0,1,AC-90179_Disu,missclassified,Antagonist
+0.3309859854369079,-0.9231657105073959,0.0,0,BF-1_Disu,correctly classified,Antagonist
+0.5238408704881555,-0.7277331456243429,0.0,0,Chlorpromazine_Disu,correctly classified,Antagonist
+0.1998025248981834,-0.7699410735384963,0.0,0,Clozapine_Disu,correctly classified,Antagonist
+0.273745604366502,-0.7610590783523737,0.0,0,EGIS-7625_Disu,correctly classified,Antagonist
+1.136609411374401,0.504558768733115,0.0,0,GSK215083_disu,correctly classified,Antagonist
+0.23418012343807187,1.3116716434542475,0.0,0,L-741626_Disu,correctly classified,Antagonist
+1.210554813422542,0.17486900575494146,0.0,0,LY215840_Disu,correctly classified,Antagonist
+0.2215401620336684,-0.7561079865616736,0.0,0,LY266097_Disu,correctly classified,Antagonist
+0.35763028869024566,-0.612502357962185,0.0,0,LY320954_Disu,correctly classified,Antagonist
+0.25785885111725987,-0.6033288579006513,0.0,0,LY86057_Disu,correctly classified,Antagonist
+-0.9545545806122391,0.29625656763155006,0.0,1,Mianserin_Disu,missclassified,Antagonist
+1.2182373629058192,0.43526569159285455,0.0,0,Olanzapine_Disu,correctly classified,Antagonist
+-0.7265481156032645,0.2626706885154799,0.0,0,Pimavanserin_Disu,correctly classified,Antagonist
+1.3288656453973375,0.4384828906428231,0.0,0,RS-102221_Disu,correctly classified,Antagonist
+1.317040791486194,0.09710992216707517,0.0,0,Risperidone_Disu,correctly classified,Antagonist
+0.2752314623171533,1.4861081965953065,0.0,0,Ritanserin_Disu,correctly classified,Antagonist
+1.1464113715355533,0.6978560280533944,0.0,0,S33084_Disu,correctly classified,Antagonist
+-0.8077133890982263,0.3195057684761379,0.0,0,SB_206553_Disu,correctly classified,Antagonist
+-1.0011128894575732,-0.0029047510129750547,0.0,1,SB_215505_Disu,missclassified,Antagonist
+0.15496787073321086,-0.7154014588781027,0.0,0,SB_224289_Disu,correctly classified,Antagonist
+-0.13268424000320864,1.0289965746693148,0.0,1,SB_228357_Disu,missclassified,Antagonist
+0.2535434942112647,-0.8196182284921144,0.0,0,SB_243213_Disu,correctly classified,Antagonist
+0.1620374067787409,1.381312653606298,0.0,0,Spiperone_Disu,correctly classified,Antagonist
+1.2820791997553205,0.09305730369529092,0.0,0,Ziprasione_Disu,correctly classified,Antagonist
+1.119293698598339,0.3038280128621965,0.0,0,Zotepine_Disu,correctly classified,Antagonist
+-1.0129414280865245,0.2625569164197238,0.0,1,agomelatine_Disu,missclassified,Antagonist
+0.4722098657727606,-0.33809883823472014,0.0,0,amesergide_Disu,correctly classified,Antagonist
+1.283869227946078,0.2872787040265302,0.0,0,apomorphine_Disu,correctly classified,Antagonist
+1.1441850297810732,0.20797514077866747,0.0,0,butaclamol_Disu,correctly classified,Antagonist
+1.3122660282715841,0.3605421655844146,0.0,0,cyamemazine_Disu,correctly classified,Antagonist
+1.3090247440617455,0.1634027892521482,0.0,0,duloxetine_Disu,correctly classified,Antagonist
+1.187296799385562,0.13490068973681324,0.0,0,fluphenazine_Disu,correctly classified,Antagonist
+1.2598509159213915,0.3377617485560812,0.0,0,glemanserin_Disu,correctly classified,Antagonist
+-0.80856710218703,0.2572333968182221,0.0,0,lumateperone_Disu,correctly classified,Antagonist
+0.32250857395318466,-0.850252840833337,0.0,0,mesoridazine_Disu,correctly classified,Antagonist
+-0.7071485211645909,0.21586646304062695,0.0,0,mesulergine_Disu,correctly classified,Antagonist
+0.08313457999702081,-0.6774858336751941,0.0,0,methysergide_Disu,correctly classified,Antagonist
+0.7091658581930745,0.4978654211151198,0.0,0,perphenazine_Disu,correctly classified,Antagonist
+0.0598563148673596,-0.7070062345280642,0.0,0,pimozide_Disu,correctly classified,Antagonist
+0.030312539455095232,-0.5237977736816697,0.0,0,quetiapine_Disu,correctly classified,Antagonist
+0.05686685929887562,-0.6481302606334272,0.0,1,roxindole_Disu,missclassified,Antagonist
+0.06668183249228055,1.1545390442397294,0.0,0,sarpogrelate_Disu,correctly classified,Antagonist
+-0.758479179552136,0.29332823539159086,0.0,0,sergolexole_Disu,correctly classified,Antagonist
+0.2659671284416729,-0.8136154445307779,0.0,0,thioridazine_Disu,correctly classified,Antagonist
+-0.02781931484873796,-0.8678415912839713,0.0,1,trifluoperazine_Disu,missclassified,Antagonist
+0.27506449651457465,-0.9697355936056464,0.0,1,vortioxetine_Disu,missclassified,Antagonist
+1.1227974934987515,0.5294465284964389,0.0,0,xanomeline_Disu,correctly classified,Antagonist
