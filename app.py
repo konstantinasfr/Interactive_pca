@@ -1,6 +1,7 @@
 from dash import Dash, dcc, html, Input, Output, no_update
-import plotly.express as px
 import pandas as pd
+import plotly.express as px
+
 
 df_shap_pca = pd.read_csv('./docs/sfm_res.csv')
 
