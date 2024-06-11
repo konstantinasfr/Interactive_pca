@@ -60,7 +60,7 @@ def display_image(clickData):
     
     # Create a div to display the image
     image_div = html.Div([
-        html.Img(src=img_url, style={"width": "350px","height": "270px"  }),
+        html.Img(src=img_url, style={"width": "400px","height": "370px"  }),   #{"width": "350px","height": "270px"  }),
         #html.H4(name),
     ], style={'margin': '5px'})  # Add margin to the div
     
