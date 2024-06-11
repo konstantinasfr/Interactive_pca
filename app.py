@@ -11,7 +11,7 @@ app = Dash(__name__)
 #    'requests_pathname_prefix': '/Interactive_pca/'
 #})
 # Define colors for each class
-colors = {'Antagonist': 'blue', 'Agonist': 'red'}
+colors = {'Antagonist': 'green', 'Agonist': 'orange'}
 
 # Create scatter plot with hover labels
 fig = px.scatter(df_shap_pca, x='PC1', y='PC2', color='ligand type', symbol='classification',
