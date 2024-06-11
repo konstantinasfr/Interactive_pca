@@ -2,6 +2,10 @@ Flask==2.0.2
 Flask-WTF==0.15.1
 Jinja2==3.1.2
 plotly==5.8.0
-dash
+dash==2.11.1
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-renderer==2.0.0
+dash-table==5.0.0
 Flask==2.0.3
 Werkzeug==2.0.3
