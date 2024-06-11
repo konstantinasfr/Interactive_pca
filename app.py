@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 
-df_shap_pca = pd.read_csv('./docs/sfm_res.csv')
+df_shap_pca = pd.read_csv('./assets/sfm_res.csv')
 
 # Create Dash app
 app = Dash(__name__)
@@ -56,7 +56,7 @@ def display_image(clickData):
     name = data_row['lig_name']
     
     # Construct image URL
-    img_url = f"./docs/{name}/waterfall_plt.png"  # Assuming images are stored in the 'assets' folder
+    img_url = f"./assets/{name}/waterfall_plt.png"  # Assuming images are stored in the 'assets' folder
     
     # Create a div to display the image
     image_div = html.Div([
@@ -75,5 +75,5 @@ def display_image(clickData):
     return clicked_data
 
 if __name__ == '__main__':
-    # app.run_server(debug=True, port=8051)
+   # app.run_server(debug=True, port=8051)
     app.run_server(debug=True, host='0.0.0.0', port=8050)
