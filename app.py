@@ -11,7 +11,7 @@ app = Dash(__name__)
 #    'requests_pathname_prefix': '/Interactive_pca/'
 #})
 # Define colors for each class
-colors = {'Antagonist': 'green', 'Agonist': 'orange'}
+colors = {'Antagonist': 'blue', 'Agonist': 'red'}
 
 # Create scatter plot with hover labels
 fig = px.scatter(df_shap_pca, x='PC1', y='PC2', color='ligand type', symbol='classification',
@@ -56,7 +56,7 @@ def display_image(clickData):
     name = data_row['lig_name']
     
     # Construct image URL
-    img_url = f"./assets/{name}/waterfall_plt.png"  # Assuming images are stored in the 'assets' folder
+    img_url = f"./assets/{name}/decision_plt.png"  # Assuming images are stored in the 'assets' folder
     
     # Create a div to display the image
     image_div = html.Div([
