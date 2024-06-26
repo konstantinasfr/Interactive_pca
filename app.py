@@ -14,14 +14,19 @@ app = Dash(__name__)
 colors = {'Antagonist': 'blue', 'Agonist': 'red'}
 
 # Create scatter plot with hover labels
+# Create scatter plot with hover labels
 fig = px.scatter(df_shap_pca, x='PC1', y='PC2', color='ligand type', symbol='classification',
                  labels={'y_true': 'True Class'},
-                 hover_name='lig_name', hover_data=['y_pred'],
+                 hover_name='lig_name', hover_data=['y_pred', 'Mean', 'Median', 'LGB_final'],
                  color_discrete_map=colors,
                  symbol_sequence=['circle', 'x'],
                  size_max=20)
 
-fig.update_traces(hovertemplate='<b>%{hovertext}</b><br><br>')
+fig.update_traces(hovertemplate='<b>%{hovertext}</b><br><br>'
+                               'Mean: %{customdata[1]}%<br>'
+                               'Median: %{customdata[2]}%<br>'
+                               'LGB_final: %{customdata[3]}%')
+
 # Customize plot layout
 fig.update_layout(title='Average Shap values', xaxis_title='PC1', yaxis_title='PC2',
                   coloraxis_showscale=False)
